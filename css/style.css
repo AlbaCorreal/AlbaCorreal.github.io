@@ -231,7 +231,17 @@ a:focus {
   background-image: url(../images/menu.png);
   background-size: 55px;
 }
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #00a103;
+  min-width: 160px;
+  z-index: 1;
+}
 
+.nav-item:hover .dropdown-content {
+  display: block;
+}
 /*end header section*/
 /* slider section */
 .slider_section {
