@@ -242,6 +242,17 @@ a:focus {
 .nav-item:hover .dropdown-content {
   display: block;
 }
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color on hover */
+.dropdown-content a:hover {
+  background-color: #555;
+}
 /*end header section*/
 /* slider section */
 .slider_section {
