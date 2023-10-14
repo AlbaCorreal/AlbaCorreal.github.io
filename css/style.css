@@ -1,7 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
   color: #040000;
-  background-color: #63f74f;
+  background-color: #23332F;
 }
 
 .layout_padding {
@@ -57,7 +57,7 @@ body {
 /*header section*/
 .hero_area {
   height: 100vh;
-  background-image: url(../images/hero-bg.jpg);
+  background-image: url(../images/electronics.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -70,8 +70,8 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(transparent), to(#63f74f));
-  background: linear-gradient(to bottom, transparent, transparent, #63f74f);
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(transparent), to(#23332F));
+  background: linear-gradient(to bottom, transparent, transparent, #334d46);
 }
 
 .sub_page .hero_area {
@@ -231,29 +231,7 @@ a:focus {
   background-image: url(../images/menu.png);
   background-size: 55px;
 }
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #ffffff;
-  min-width: 160px;
-  z-index: 1;
-  padding: 10px 0;
-}
 
-.nav-item:hover .dropdown-content {
-  display: block;
-}
-.dropdown-content a {
-  color: white;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Change color on hover */
-.dropdown-content a:hover {
-  background-color: #555;
-}
 /*end header section*/
 /* slider section */
 .slider_section {
@@ -299,7 +277,7 @@ a:focus {
 }
 
 .slider_section .slider_heading h2 span {
-  color: #63f74f;
+  color: #e81716;
 }
 
 .slider_section .detail-box h1 {
@@ -396,7 +374,7 @@ a:focus {
   background-repeat: no-repeat;
   background-size: 8px;
   background-position: center;
-  background-color: #63f74f;
+  background-color: #334d46;
   border-radius: 100%;
 }
 
@@ -440,7 +418,7 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #63f74f;
+  color: #334d46;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
@@ -449,7 +427,7 @@ a:focus {
   border: none;
   width: 1px;
   height: 200px;
-  background-color: #63f74f;
+  background-color: #334d46;
   margin: 2rem 0;
 }
 
@@ -464,7 +442,7 @@ a:focus {
 
 .about_section .about_container {
   padding: 45px;
-  background-image: url(../images/about-bg.jpg);
+  background-image: url(../images/something.jpg);
   background-size: cover;
 }
 
@@ -479,7 +457,7 @@ a:focus {
 }
 
 .about_section .about_container .detail-box p {
-  margin-top: 25px;
+  margin-top: px;
 }
 
 .about_section .about_container .detail-box hr {
@@ -498,8 +476,8 @@ a:focus {
   border-radius: 35px;
   color: #ffffff;
   margin: 35px auto 0 auto;
-  -webkit-box-shadow: 0 0 35px 0 rgba(99, 247, 79, 0.7);
-          box-shadow: 0 0 35px 0 rgba(99, 247, 79, 0.7);
+  -webkit-box-shadow: 0 0 35px 0 #334d46;
+          box-shadow: 0 0 35px 0 #334d46;
 }
 
 .about_section .about_container .detail-box a:hover {
@@ -704,7 +682,7 @@ a:focus {
   height: 75px;
   border-radius: 100%;
   text-align: center;
-  background-color: #63f74f;
+  background-color: #334d46;
   color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;

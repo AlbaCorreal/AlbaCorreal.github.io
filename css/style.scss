@@ -1,7 +1,7 @@
 $white: #ffffff;
 $black: #000000;
 $btnBlack: #151615;
-$primary: #63f74f;
+$primary: #23332F;
 
 @mixin main-font {
   font-family: "Poppins", sans-serif;
@@ -280,7 +280,7 @@ a:focus {
   }
 
   .slider_heading {
-    transform: rotate(270.5deg) scaleX(-1);
+    transform: rotate(90.5deg) scaleX(-1);
     position: absolute;
     left: -150px;
     top: -25px;
@@ -371,7 +371,7 @@ a:focus {
     background-repeat: no-repeat;
     background-size: 8px;
     background-position: center;
-    background-color: $primary;
+    background-color: #e81716;
     border-radius: 100%;
 
     &:hover {
@@ -438,7 +438,7 @@ a:focus {
 
   .about_container {
     padding: 45px;
-    background-image: url(../images/about-bg.jpg);
+    background-image: none;
     background-size: cover;
 
     .detail-box {
@@ -460,7 +460,7 @@ a:focus {
       a {
         @include hero_btn($black, $white, 8px, 35px, 35px);
         margin: 35px auto 0 auto;
-        box-shadow: 0 0 35px 0 rgba($color: #63f74f, $alpha: .7);
+        box-shadow: 0 0 35px 0 rgba($color: #334d46, $alpha: .7);
       }
     }
   }
