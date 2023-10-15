@@ -425,6 +425,65 @@ a:focus {
 
 /* end slider section */
 
+/*project section*/
+.project_section {
+  height: calc(100% - 80px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  #carouselExampleIndicators {
+    width: 100%;
+  }
+
+  .row {
+    .col-md-10 {
+      display: flex;
+    }
+  }
+
+  .project_heading {
+    transform: rotate(90.5deg) scaleX(-1);
+    position: absolute;
+    left: -150px;
+    top: -25px;
+
+    h2 {
+      display: flex;
+      font-size: 10rem;
+      text-transform: uppercase;
+      text-orientation: upright;
+      font-weight: bold;
+      color: $white;
+
+      span {
+        color: $primary;
+      }
+    }
+  }
+
+  .detail-box {
+    h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: $white;
+    }
+
+    hr {
+      margin: 0 auto;
+      border: none;
+      width: 1.5px;
+      height: 65px;
+      background-color: $white;
+    }
+
+  }
+
+
+}
+
+/*end project section*/
 // about section
 
 .about_section {
@@ -473,7 +532,6 @@ a:focus {
 .class_section {
   color: $white;
   position: relative;
-
   .row>div {
     position: unset;
   }
@@ -509,7 +567,7 @@ a:focus {
           left: 0;
 
           button {
-            background-color: #292929;
+            background-color: #9e9536;
             border: none;
             width: 55px;
             height: 55px;
@@ -789,57 +847,7 @@ a:focus {
     align-items: flex-end;
   }
 
-  // contact section
-  .contact_section {
-    position: relative;
-
-    h2 {
-      font-weight: bold;
-    }
-
-    form {
-      margin-top: 45px;
-      padding-right: 35px;
-      margin-bottom: 45px;
-    }
-
-    input {
-      width: 100%;
-      border: none;
-      height: 50px;
-      margin-bottom: 25px;
-      padding-left: 25px;
-      background-color: #000;
-      outline: none;
-      color: $white;
-      border-radius: 45px;
-
-      &::placeholder {
-        color: #737272;
-      }
-
-      &.message-box {
-        height: 135px;
-        border-radius: 25px;
-      }
-    }
-
-    button {
-      border: none;
-      @include hero_btn($white, $black, 12px, 55px, 35px);
-      margin-top: 35px;
-    }
-
-    .map_container {
-      height: 100%;
-      min-height: 325px;
-
-      .map-responsive {
-        height: 100%;
-      }
-    }
-  }
-
+  
   // end contact section
 
 
@@ -868,10 +876,6 @@ a:focus {
     a {
       margin-right: 15px;
 
-      img {
-        max-width: 25px;
-        max-height: 25px;
-      }
     }
   }
 
